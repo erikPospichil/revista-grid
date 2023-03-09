@@ -128,3 +128,37 @@ hr {
 .citacao::after {
   content: ' "';
 }
+
+.texto-com-imagens {
+  column-gap: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 3rem;
+}
+
+.listas {
+  list-style-type: none;
+  margin-top: 2rem;
+}
+
+.listas li {
+  margin-bottom: 1.5rem;
+}
+
+.lista-titulo,
+.lista-subtitulo {
+  color: #00beef;
+}
+
+.envolve-imagem {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(3, min-content);
+  place-items: center;
+}
+
+.imagem-1,
+.imagem-3 {
+  grid-column: 1 / -1;
+}
