@@ -15,3 +15,21 @@ body {
   color: linen;
   font-family: Baskervville, serif;
 }
+
+h1 {
+  font-family: Anton, sans-serif;
+  text-transform: uppercase;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Raleway, sans-serif;
+}
+
+a {
+  color: linen;
+  text-decoration: none;
+}
