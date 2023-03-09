@@ -162,3 +162,39 @@ hr {
 .imagem-3 {
   grid-column: 1 / -1;
 }
+
+@media only screen and (max-width: 720px) {
+  .envolve-imagem {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .texto-com-imagens {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .heroi-titulo {
+    font-size: 6rem;
+  }
+  .autor,
+  .citacao,
+  .heroi-subtitulo,
+  .lista-titulo {
+    font-size: 1.8rem;
+  }
+  .icones-sociais {
+    font-size: 2rem;
+  }
+  .texto {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .heroi-titulo {
+    font-size: 4.5rem;
+  }
+}
